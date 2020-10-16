@@ -248,10 +248,12 @@ SELECT * FROM posts;
 1. Create the psql database by running ```rails:dbcreate```
 1. There will be a migration file you need to run by running ```rails db:migrate```
 1. You may now run ```rails s``` to boot the app up at ```localhost:3000```
-  - You should see something like this ![](https://i.imgur.com/j7HJ7mG.png)
+  - You should see something like this
+  - ![](https://i.imgur.com/j7HJ7mG.png)
 1. Insert a piece of data by doing ```rails c``` in a new terminal tab and once in the rails console do ```Person.create(name: "Tim", age: 30)```
 1. Go to ```localhost:3000/people```
-  - You should see this ![](https://i.imgur.com/nvtY2Sy.png)
+  - You should see this
+  - ![](https://i.imgur.com/nvtY2Sy.png)
 
 
 ### Heroku Deployment
